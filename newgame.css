@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica
+  
+}
+
+#splash-text {
+   position: relative;
+   text-align: center;
+    color: #ff4013;
+    padding: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+
+body {
+    background-color: black;
+    color: #ff2600;
+    text-transform: uppercase;
+}
+
+
+p{ color: rgb(35, 35, 35);
+   text-transform: uppercase;
+ }
+
+p1{ color: rgb(255, 38, 0);
+    text-transform: uppercase;
+ }
+
+blink {
+     animation: blinker 1s linear infinite;
+ }
+ @keyframes blinker {
+     50% {
+         opacity: 0;
+     }
+ }
+
+
+.game{
+  background-image: url(IMG_5368.jpg); 
+   background-repeat: space;
+    background-size: 100% 100%;
+    border: 1px solid;
+    
+
+}
+
+.hide {
+    display: none;
+}
+
+.startScreen {
+    width: 500px;
+    height: 107px;
+    line-height: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    border: .001px solid rgb(255, 64, 255);
+    border-radius: 10px;
+    padding: 10px
+}
+
+.score,
+.highScore {
+    position: absolute;
+    top: 50px;
+    left: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    width: 180px;
+    color: rgb(255, 38, 0);
+    line-height: 15px;
+    border-radius: 1px;
+    font-size: 15px;
+    border: .001px solid rgb(0, 0, 0);
+    padding: 10px
+    
+}
+
+.ClickToStart {
+     cursor: pointer; 
+    font-weight: bold;
+}
+
+.gameArea {
+    height: 700px;
+    width: 400px;
+    margin: auto;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    border-left: 3px dashed #282828;
+    border-right: 3px dashed #282828;
+
+}
+
+.moto {
+    background: url(moto1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 100px;
+    rotate: 270deg;
+    position: absolute;
+    top: 520px;
+   padding: none;
+  overflow: hidden;
+}
+
+.Opponents {
+    background-image: url(moto13.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 40px;
+    width: 100px;
+    rotate: 90deg;
+   position: absolute;
+    top: 520fffpx;
+   padding: none;
+  
+}
+
+.roadLines {
+    height: 60px;
+    width: 10px;
+    background-color: #232323;
+    position: absolute;
+    margin-left: 195px;
+   justify-content: center;
+  
+}
+
